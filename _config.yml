@@ -4,3 +4,5 @@ theme: jekyll-theme-slate
 #description: [A short description of your site's purpose]
 name: Kjetil S. Gjerden
 markdown: kramdown
+
+permalink: /blog/:year/:month/:day/:title
