@@ -45,7 +45,16 @@
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
         {{ content }}
-	<img src="/files/lykke.jpg">
+	      <style>
+		      html { 
+  background: url(/files/lykke.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+	/*<img src="/files/lykke.jpg"> */
+	      </style>
       </section>
     </div>
 
